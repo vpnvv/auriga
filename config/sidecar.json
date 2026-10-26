@@ -1,15 +1,15 @@
 {
   "builtin": "schedule",
   "args": [
-    "CRON_TZ=Asia/Kolkata 0 6 * * *",
+    "CRON_TZ=Asia/Kolkata 30 2,6,10,14,18,22 * * *",
     "agentapi",
     "new-conversation",
     "--",
-    "Execute Vipin's daily job search automation workflow: Run `python3 scripts/run_daily_search.py --mode=send-approved` in workspace `/Users/vipinvv/.gemini/antigravity/scratch/vipin-job-search-automation` to collect last 24h jobs for React.js / Frontend Developer in Kochi, Remote India, and Dubai; evaluate using 100-point scoring; tailor ATS resumes; compile digest; update tracker; and generate email dispatch."
+    "Execute Vipin's 4-hour job search automation workflow: Run `python3 scripts/run_daily_search.py --mode=send-approved` in workspace `/Users/vipinvv/.gemini/antigravity/scratch/vipin-job-search-automation` to collect latest jobs for React.js / Frontend Developer in Kochi, Remote India, and Dubai; evaluate using 100-point scoring; tailor ATS resumes; compile digest; update website data & tracker; and generate email dispatch."
   ],
   "restart_policy": "always",
-  "display_name": "Auriga — Career Automation Navigator",
-  "description": "Every day at 06:00 AM (Asia/Kolkata), Auriga scans LinkedIn & Indeed for React.js Developer jobs, tailors 5 ATS resumes, generates cover notes, and prepares email digest.",
+  "display_name": "Auriga — Career Automation Navigator (4-Hour Cycle)",
+  "description": "Every 4 hours (Asia/Kolkata), Auriga scans for React.js Developer jobs, tailors ATS resumes, generates cover notes, updates the website dashboard, and sends email notifications.",
   "agent_permissions": {
     "workspace_uris": [
       "file:///Users/vipinvv/.gemini/antigravity/scratch/vipin-job-search-automation"

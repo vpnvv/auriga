@@ -1,10 +1,11 @@
-name: Auriga Daily Job Search
+name: Auriga 4-Hour Job Search & Tracker Sync
 
 on:
   schedule:
-    # 06:00 AM IST is 00:30 AM UTC (Asia/Kolkata is UTC+5:30)
-    - cron: '30 0 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+    # Runs every 4 hours at :30 past the hour (06:00, 10:00, 14:00, 18:00, 22:00, 02:00 IST)
+    # In UTC: 00:30, 04:30, 08:30, 12:30, 16:30, 20:30
+    - cron: '30 0,4,8,12,16,20 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI or API anytime
 
 jobs:
   run-search:
