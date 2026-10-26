@@ -1,0 +1,66 @@
+{
+  "candidate": {
+    "name": "Vipin V V",
+    "email": "vipinvv555@gmail.com",
+    "phoneIndia": "+91 8089564801",
+    "phoneUAE": "+971 556061492",
+    "linkedin": "linkedin.com/in/vpnvv",
+    "github": "github.com/vpnvv",
+    "locationIndia": "Kochi, Kerala, India",
+    "locationUAE": "Dubai, United Arab Emirates",
+    "sourceCvPath": "./Vipin_V_V_FrontEnd_Developer_CV.pdf"
+  },
+  "timezone": "Asia/Kolkata",
+  "lookbackHours": 24,
+  "maxJobsPerSource": 50,
+  "maxFinalJobs": 5,
+  "locations": [
+    {
+      "name": "Kochi, Kerala, India",
+      "workModes": ["onsite", "hybrid"],
+      "country": "IN",
+      "phone": "+91 8089564801"
+    },
+    {
+      "name": "India Remote",
+      "workModes": ["remote"],
+      "country": "IN",
+      "countryEligibility": "India",
+      "phone": "+91 8089564801"
+    },
+    {
+      "name": "Dubai, UAE",
+      "workModes": ["onsite", "hybrid", "remote"],
+      "country": "AE",
+      "phone": "+971 556061492"
+    },
+    {
+      "name": "Other UAE locations",
+      "workModes": ["onsite", "hybrid", "remote"],
+      "country": "AE",
+      "phone": "+971 556061492"
+    }
+  ],
+  "jobTitles": [
+    "React.js Developer",
+    "Frontend Developer",
+    "Frontend Engineer",
+    "Software Developer React",
+    "Next.js Developer"
+  ],
+  "apify": {
+    "linkedinActor": "valig/linkedin-jobs-scraper",
+    "indeedActor": "orgupdate/indeed-jobs-scraper",
+    "costLimitUsdPerRun": 0.50,
+    "timeoutSecs": 180
+  },
+  "email": {
+    "recipient": "vipinvv555@gmail.com",
+    "senderName": "Daily Job Digest",
+    "dryRun": false
+  },
+  "whatsapp": {
+    "recipient": "+918089564801",
+    "enabled": true
+  }
+}

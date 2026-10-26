@@ -1,0 +1,39 @@
+================================================================
+AURIGA: CAREER AUTOMATION NAVIGATOR — 2026-10-26
+Mode: SEND-APPROVED | Timezone: Asia/Kolkata
+================================================================
+[Phase A] Source CV verified: Vipin_V_V_FrontEnd_Developer_CV.pdf (157286 bytes)
+[Phase D] Apify Status: CONNECTED
+          Detail: Connected to Apify as user: vpnvv (Plan: FREE)
+[Phase E] Authenticated with Apify (User: vpnvv, Plan: FREE).
+          Connecting to valig/linkedin-jobs-scraper & orgupdate/indeed-jobs-scraper...
+          Raw candidates gathered: 5
+[Phase F] Evaluating 5 mandatory gate filters & 100-point scoring...
+          Qualified top shortlist: 5 positions
+          #1 [96/100] Frontend Developer (React.js + Next.js) at Zapio Technology (Kochi, Kerala, India)
+          #2 [91/100] React Web Developer (Frontend) at Stellar Technologies (Dubai, UAE)
+          #3 [86/100] Software Developer (React.js / Next.js) - India Remote at Fuse Energy Technologies (India Remote)
+          #4 [80/100] Frontend Engineer (React.js) at D4 Insight (Dubai, UAE)
+          #5 [74/100] React.js / Frontend Developer at Infolitz Software Pvt. Ltd. (Infopark, Kochi, Kerala, India)
+[Phase G] Generating tailored ATS single-column resumes...
+          Generated 5 PDFs. All text validated: True
+          -> Vipin_VV_Zapio_Technology_Frontend_Developer__React_ATS_CV.pdf (6251 bytes) - Text Integrity: VERIFIED
+          -> Vipin_VV_Stellar_Technologies_React_Web_Developer__Fron_ATS_CV.pdf (6244 bytes) - Text Integrity: VERIFIED
+          -> Vipin_VV_Fuse_Energy_Technologies_Software_Developer__React_ATS_CV.pdf (6248 bytes) - Text Integrity: VERIFIED
+          -> Vipin_VV_D4_Insight_Frontend_Engineer__React_ATS_CV.pdf (6307 bytes) - Text Integrity: VERIFIED
+          -> Vipin_VV_Infolitz_Software_Pvt__Ltd_React_js___Frontend_Devel_ATS_CV.pdf (6201 bytes) - Text Integrity: VERIFIED
+[Phase H] Generating daily digest, cover note, and jobs.json...
+[Phase H] Updating persistent job tracker...
+          Tracker saved: 5 cumulative opportunities tracked in ./tracker/tracker.md
+[Phase I] Compiling email preview and attachment package...
+
+[Phase K] Executing Email Delivery to vipinvv555@gmail.com...
+          Status: SUCCESS: Digest email sent to vipinvv555@gmail.com with 7 attachments via Gmail SMTP SSL.
+
+================================================================
+PIPELINE RUN COMPLETED SUCCESSFULLY
+Digest folder: /Users/vipinvv/.gemini/antigravity/scratch/vipin-job-search-automation/job-search-output/2026-10-26
+Manifest: /Users/vipinvv/.gemini/antigravity/scratch/vipin-job-search-automation/job-search-output/2026-10-26/cvs/manifest.json
+Email Preview: /Users/vipinvv/.gemini/antigravity/scratch/vipin-job-search-automation/job-search-output/2026-10-26/email-preview.md
+Tracker: /Users/vipinvv/.gemini/antigravity/scratch/vipin-job-search-automation/tracker/tracker.md
+================================================================

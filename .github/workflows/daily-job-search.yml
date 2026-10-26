@@ -1,0 +1,42 @@
+name: Auriga Daily Job Search
+
+on:
+  schedule:
+    # 06:00 AM IST is 00:30 AM UTC (Asia/Kolkata is UTC+5:30)
+    - cron: '30 0 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+
+jobs:
+  run-search:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.9
+        uses: setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Create Environment Secrets File
+        run: |
+          mkdir -p config
+          cat << 'EOF' > config/.env
+          APIFY_TOKEN=${{ secrets.APIFY_TOKEN }}
+          GMAIL_USER=vipinvv555@gmail.com
+          GMAIL_APP_PASSWORD=${{ secrets.GMAIL_APP_PASSWORD }}
+          CALLMEBOT_API_KEY=${{ secrets.CALLMEBOT_API_KEY }}
+          EOF
+
+      - name: Run Auriga Daily Search & Delivery
+        run: |
+          python3 scripts/run_daily_search.py --mode=send-approved
+
+      - name: Commit & Push Updated Tracker
+        if: always()
+        run: |
+          git config --global user.name "Auriga Bot"
+          git config --global user.email "bot@auriga.local"
+          git add tracker/ job-search-output/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(tracker): update daily search results [skip ci]" && git push)
