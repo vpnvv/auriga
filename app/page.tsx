@@ -21,18 +21,12 @@ import {
   SlidersHorizontal
 } from "lucide-react";
 
+import { INITIAL_JOBS, calculateMetrics } from "@/lib/initial-jobs";
+
 export default function DashboardPage() {
-  const [jobs, setJobs] = useState<Job[]>([]);
-  const [metrics, setMetrics] = useState<DashboardMetrics>({
-    total: 0,
-    pending: 0,
-    applied: 0,
-    ignored: 0,
-    avgScore: 0,
-    uaeCount: 0,
-    indiaCount: 0,
-  });
-  const [isLoading, setIsLoading] = useState(true);
+  const [jobs, setJobs] = useState<Job[]>(INITIAL_JOBS);
+  const [metrics, setMetrics] = useState<DashboardMetrics>(calculateMetrics(INITIAL_JOBS));
+  const [isLoading, setIsLoading] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
@@ -69,23 +63,23 @@ export default function DashboardPage() {
 
   const loadData = async () => {
     try {
-      const res = await fetch("/api/jobs");
-      const data = await res.json();
-      if (data.success) {
-        setJobs(data.jobs || []);
-        setMetrics(data.metrics || {
-          total: 0,
-          pending: 0,
-          applied: 0,
-          ignored: 0,
-          avgScore: 0,
-          uaeCount: 0,
-          indiaCount: 0,
-        });
+      let currentJobs = INITIAL_JOBS;
+      if (typeof window !== "undefined") {
+        const saved = localStorage.getItem("auriga_saved_status");
+        if (saved) {
+          try {
+            const statusMap: Record<string, ApplicationStatus> = JSON.parse(saved);
+            currentJobs = currentJobs.map((j) => ({
+              ...j,
+              application_status: statusMap[j.id] || j.application_status || "Shortlisted",
+            }));
+          } catch (e) {}
+        }
       }
+      setJobs(currentJobs);
+      setMetrics(calculateMetrics(currentJobs));
     } catch (err) {
       console.error("Error loading dashboard data:", err);
-      showToast("Error loading jobs data");
     } finally {
       setIsLoading(false);
       setIsRefreshing(false);
@@ -104,52 +98,27 @@ export default function DashboardPage() {
 
   const handleUpdateStatus = async (jobId: string, newStatus: ApplicationStatus) => {
     // Optimistic update
-    setJobs((prev) =>
-      prev.map((j) => (j.id === jobId ? { ...j, application_status: newStatus } : j))
-    );
-
-    // Update metrics optimistically
-    setMetrics((prev) => {
-      const currentJob = jobs.find((j) => j.id === jobId);
-      const oldStatus = currentJob?.application_status || "Shortlisted";
-      if (oldStatus === newStatus) return prev;
-
-      let applied = prev.applied;
-      let ignored = prev.ignored;
-      let pending = prev.pending;
-
-      if (oldStatus === "Applied") applied--;
-      else if (oldStatus === "Ignored") ignored--;
-      else pending--;
-
-      if (newStatus === "Applied") applied++;
-      else if (newStatus === "Ignored") ignored++;
-      else pending++;
-
-      return { ...prev, applied, ignored, pending };
+    setJobs((prev) => {
+      const updated = prev.map((j) => (j.id === jobId ? { ...j, application_status: newStatus } : j));
+      setMetrics(calculateMetrics(updated));
+      return updated;
     });
 
     if (selectedJob && selectedJob.id === jobId) {
       setSelectedJob((prev) => (prev ? { ...prev, application_status: newStatus } : null));
     }
 
-    try {
-      const res = await fetch(`/api/jobs/${encodeURIComponent(jobId)}`, {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ status: newStatus }),
-      });
-      const data = await res.json();
-      if (!data.success) {
-        showToast(`Failed: ${data.error}`);
-        await loadData(); // Revert
-      } else {
-        showToast(`Marked as ${newStatus}`);
-      }
-    } catch (err) {
-      showToast("Network error updating status");
-      await loadData();
+    // Persist to localStorage
+    if (typeof window !== "undefined") {
+      try {
+        const saved = localStorage.getItem("auriga_saved_status");
+        const statusMap = saved ? JSON.parse(saved) : {};
+        statusMap[jobId] = newStatus;
+        localStorage.setItem("auriga_saved_status", JSON.stringify(statusMap));
+      } catch (e) {}
     }
+
+    showToast(`Marked as ${newStatus}`);
   };
 
   const handleOpenModal = (job: Job, defaultTab: "email" | "cv" | "cover" | "jd" = "email") => {

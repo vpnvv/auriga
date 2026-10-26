@@ -71,7 +71,8 @@ export default function JobModal({
     is_uae: isUae,
   };
 
-  const cvUrl = `/api/cv/${encodeURIComponent(job.cv_filename)}`;
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  const cvUrl = `${basePath}/cvs/${encodeURIComponent(job.cv_filename)}`;
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(emailData.body);

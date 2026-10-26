@@ -122,7 +122,7 @@ export default function Navbar({ onRefresh, isRefreshing = false }: NavbarProps)
 
           {/* Repository Link */}
           <a
-            href="https://github.com/vpnvv/vipin-job-search-automation"
+            href="https://github.com/vpnvv/auriga"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white transition-all"

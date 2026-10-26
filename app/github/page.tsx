@@ -30,10 +30,22 @@ export default function GitHubStatusPage() {
   const fetchRuns = async () => {
     setIsLoading(true);
     try {
-      const res = await fetch("/api/github");
-      const data = await res.json();
-      if (data.runs) {
-        setRuns(data.runs);
+      const res = await fetch("https://api.github.com/repos/vpnvv/auriga/actions/runs?per_page=10");
+      if (res.ok) {
+        const data = await res.json();
+        const mappedRuns = (data.workflow_runs || []).map((r: any) => ({
+          databaseId: r.id,
+          workflowName: r.name,
+          displayTitle: r.display_title || r.name,
+          status: r.status,
+          conclusion: r.conclusion,
+          event: r.event,
+          headBranch: r.head_branch,
+          headSha: r.head_sha,
+          createdAt: r.created_at,
+          updatedAt: r.updated_at,
+        }));
+        setRuns(mappedRuns);
       }
     } catch (err) {
       console.error("Failed to fetch runs:", err);
@@ -46,28 +58,15 @@ export default function GitHubStatusPage() {
     fetchRuns();
   }, []);
 
-  const handleTriggerRun = async () => {
+  const handleTriggerRun = () => {
     setIsTriggering(true);
-    setTriggerMessage("Triggering GitHub Actions cloud runner...");
-    try {
-      const res = await fetch("/api/github/trigger", { method: "POST" });
-      const data = await res.json();
-      if (data.success) {
-        setTriggerMessage("Run dispatched successfully to GitHub Actions!");
-        setTimeout(() => {
-          fetchRuns();
-        }, 3000);
-      } else {
-        setTriggerMessage(`Trigger failed: ${data.error}`);
-      }
-    } catch (err: any) {
-      setTriggerMessage("Network error triggering workflow");
-    } finally {
-      setTimeout(() => {
-        setIsTriggering(false);
-        setTriggerMessage(null);
-      }, 4000);
-    }
+    setTriggerMessage("Opening GitHub Actions runner in new tab to trigger cloud run...");
+    window.open("https://github.com/vpnvv/auriga/actions/workflows/daily-job-search.yml", "_blank");
+    setTimeout(() => {
+      setIsTriggering(false);
+      setTriggerMessage("Cloud runner interface opened on GitHub.");
+      fetchRuns();
+    }, 2500);
   };
 
   const getStatusBadge = (run: GitHubWorkflowRun) => {
@@ -162,12 +161,12 @@ export default function GitHubStatusPage() {
               <div className="flex justify-between">
                 <span className="text-slate-400">Repository:</span>
                 <a
-                  href="https://github.com/vpnvv/vipin-job-search-automation"
+                  href="https://github.com/vpnvv/auriga"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-cyan-400 hover:underline flex items-center space-x-1"
                 >
-                  <span>vpnvv/...-automation</span>
+                  <span>vpnvv/auriga</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
@@ -298,7 +297,7 @@ export default function GitHubStatusPage() {
                       </td>
                       <td className="py-3.5 text-right">
                         <a
-                          href={`https://github.com/vpnvv/vipin-job-search-automation/actions/runs/${run.databaseId}`}
+                          href={`https://github.com/vpnvv/auriga/actions/runs/${run.databaseId}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-white/10 text-cyan-300 hover:text-cyan-200 text-xs inline-flex items-center space-x-1 transition-all"

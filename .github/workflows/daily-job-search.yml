@@ -41,5 +41,8 @@ jobs:
         run: |
           git config --global user.name "Auriga Bot"
           git config --global user.email "bot@auriga.local"
-          git add tracker/ job-search-output/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(tracker): update daily search results [skip ci]" && git push)
+          mkdir -p public/data public/cvs
+          cp tracker/job_tracker.json public/data/jobs.json || true
+          cp job-search-output/*/cvs/*.pdf public/cvs/ 2>/dev/null || true
+          git add tracker/ job-search-output/ public/data/jobs.json public/cvs/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(tracker): update 4-hour search results [skip ci]" && git push)
