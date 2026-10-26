@@ -13,7 +13,38 @@
     "cv_filename": "Vipin_VV_Zapio_Technology_Frontend_Developer__React_ATS_CV.pdf",
     "application_status": "Shortlisted",
     "follow_up_date": "Pending manual review",
-    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure."
+    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "country": "IN",
+    "contact_phone": "+91 8089564801",
+    "contact_location": "Kochi, Kerala, India",
+    "salary": "INR 8,00,000 - 12,00,000 / year (Market Competitive)",
+    "description": "Zapio Technology is looking for an experienced Frontend Developer proficient in React.js and Next.js to build modern, high-performance web applications. You will be responsible for creating responsive, reusable UI component systems, integrating REST APIs with optimized asynchronous data handling, managing application state with Redux Toolkit / Context API, and improving frontend performance via lazy loading and code splitting. Ideal candidate has 3-5 years of frontend experience, strong knowledge of JavaScript ES6+, TypeScript, Tailwind CSS, and experience optimizing Webpack/Vite build workflows.",
+    "matched_technologies": [
+      "React.js",
+      "Next.js",
+      "TypeScript / ES6+",
+      "Redux Toolkit / State Architecture",
+      "Modern UI Styling (Tailwind/Mantine)",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "score_breakdown": {
+      "tech_stack": 30,
+      "domain_experience": 25,
+      "architecture_performance": 16,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "tailored_email": {
+      "subject": "Application: Frontend Developer (React.js + Next.js) — Vipin V V (4+ Years React.js / Frontend)",
+      "body": "Dear Hiring Team at Zapio Technology,\n\nI am writing to express my strong interest in the Frontend Developer (React.js + Next.js) opening at Zapio Technology.\n\nWith over 4 years of frontend development experience specializing in React.js, Next.js, Redux Toolkit, and TypeScript, I have built and delivered scalable web applications and high-throughput booking platforms.\n\nKey highlights of my background aligned with Zapio Technology:\n• Production Frontend Engineering: 4+ years architecting component-driven web applications using React.js, Next.js, TypeScript / ES6+, Redux Toolkit / State Architecture, Modern UI Styling (Tailwind/Mantine).\n• Performance & Speed: Reduced API response handling time by 20% and improved overall page loading speed by 15% through lazy loading, targeted memoization, and modern caching strategies.\n• Build Optimization: Successfully migrated enterprise frontend codebases from legacy Webpack to Vite, significantly cutting bundle sizes and development build times.\n• Asynchronous Data Architecture: Expert integration of complex RESTful APIs, Axios, and state synchronization using Redux Toolkit.\n\nI have attached my ATS-optimized resume tailored specifically for Frontend Developer (React.js + Next.js) at Zapio Technology. I welcome the opportunity to discuss how my technical expertise can contribute to your engineering goals.\n\nSincerely,\nVipin V V\nKochi, Kerala, India\nPhone: +91 8089564801\nEmail: vipinvv555@gmail.com\nLinkedIn: linkedin.com/in/vipin-v-v\nAvailability: Standard notice period / Immediate discussion\n",
+      "recipient": "careers@zapiotechnology.com",
+      "phone": "+91 8089564801",
+      "location": "Kochi, Kerala, India",
+      "is_uae": false
+    },
+    "cover_letter": "# Cover Note — Frontend Developer (React.js + Next.js) at Zapio Technology\n\nDate: 2026-10-26\nTarget Position: Frontend Developer (React.js + Next.js)\nCompany: Zapio Technology\nPosting URL: https://www.indeed.com/q-React-Developer-l-Kochi,-Kerala-jobs.html\n\n--------------------------------------------------------------------------------\n\nDear Hiring Team at Zapio Technology,\n\nI am writing to express my strong interest in the Frontend Developer (React.js + Next.js) opening at Zapio Technology. With over 4 years of frontend engineering experience focused on React.js, Next.js, TypeScript, and Redux Toolkit, I have built and scaled high-throughput web applications and enterprise booking platforms.\n\nAt Gewan Info Tech Solutions and Caxita Tech Solutions, I specialized in architecting reusable UI component systems and integrating complex asynchronous REST APIs. Through targeted memoization, lazy loading, and modern build tooling with Vite, I achieved a 20% reduction in API response handling time and a 15% improvement in overall page performance.\n\nI am particularly drawn to Zapio Technology's focus on engineering excellence and robust digital experiences. I would welcome the opportunity to discuss how my technical background and performance-focused mindset can deliver immediate value to your team.\n\nSincerely,\nVipin V V\nKochi, Kerala, India\n+91 8089564801 | vipinvv555@gmail.com\n[Available within standard notice period / immediate upon discussion]\n",
+    "applied_at": null,
+    "ignored_at": null
   },
   "stellar technologies:::react web developer (frontend)": {
     "id": "stellar-dubai-react-web",
@@ -29,7 +60,36 @@
     "cv_filename": "Vipin_VV_Stellar_Technologies_React_Web_Developer__Fron_ATS_CV.pdf",
     "application_status": "Shortlisted",
     "follow_up_date": "Pending manual review",
-    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure."
+    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "country": "AE",
+    "contact_phone": "+971 556061492",
+    "contact_location": "Dubai, UAE",
+    "salary": "AED 14,000 - 18,000 / month",
+    "description": "Stellar Technologies in Dubai is seeking a talented React Web Developer to drive development of our enterprise client portal and booking solutions. Responsibilities include translating complex UI/UX designs into modular, reusable component architectures, integrating RESTful services with JWT authentication, optimizing page load speed, and maintaining robust frontend state management. Requires 4+ years of practical experience with React.js, TypeScript, Next.js, and modern CSS frameworks like Tailwind CSS.",
+    "matched_technologies": [
+      "React.js",
+      "Next.js",
+      "TypeScript / ES6+",
+      "Redux Toolkit / State Architecture",
+      "Modern UI Styling (Tailwind/Mantine)",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "score_breakdown": {
+      "tech_stack": 30,
+      "domain_experience": 25,
+      "architecture_performance": 11,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "tailored_email": {
+      "subject": "Application: React Web Developer (Frontend) — Vipin V V (4+ Years React.js / Frontend)",
+      "body": "Dear Hiring Team at Stellar Technologies,\n\nI am writing to express my strong interest in the React Web Developer (Frontend) opening at Stellar Technologies.\n\nWith over 4 years of frontend development experience specializing in React.js, Next.js, Redux Toolkit, and TypeScript, I have built and delivered scalable web applications and high-throughput booking platforms.\n\nKey highlights of my background aligned with Stellar Technologies:\n• Production Frontend Engineering: 4+ years architecting component-driven web applications using React.js, Next.js, TypeScript / ES6+, Redux Toolkit / State Architecture, Modern UI Styling (Tailwind/Mantine).\n• Performance & Speed: Reduced API response handling time by 20% and improved overall page loading speed by 15% through lazy loading, targeted memoization, and modern caching strategies.\n• Build Optimization: Successfully migrated enterprise frontend codebases from legacy Webpack to Vite, significantly cutting bundle sizes and development build times.\n• Asynchronous Data Architecture: Expert integration of complex RESTful APIs, Axios, and state synchronization using Redux Toolkit.\n\nI have attached my ATS-optimized resume tailored specifically for React Web Developer (Frontend) at Stellar Technologies. I welcome the opportunity to discuss how my technical expertise can contribute to your engineering goals.\n\nSincerely,\nVipin V V\nDubai, UAE\nPhone: +971 556061492\nEmail: vipinvv555@gmail.com\nLinkedIn: linkedin.com/in/vipin-v-v\nAvailability: Immediately Available | Open to UAE Employment & Sponsorship\n",
+      "recipient": "careers@stellartechnologies.com",
+      "phone": "+971 556061492",
+      "location": "Dubai, UAE",
+      "is_uae": true
+    },
+    "cover_letter": "# Cover Note — React Web Developer (Frontend) at Stellar Technologies\n\nDate: 2026-10-26\nTarget Position: React Web Developer (Frontend)\nCompany: Stellar Technologies\nPosting URL: https://www.linkedin.com/jobs/search/?keywords=React.js+Developer&location=Dubai\n\n--------------------------------------------------------------------------------\n\nDear Hiring Team at Stellar Technologies,\n\nI am writing to express my strong interest in the React Web Developer (Frontend) opening at Stellar Technologies. With over 4 years of frontend engineering experience focused on React.js, Next.js, TypeScript, and Redux Toolkit, I have built and scaled high-throughput web applications and enterprise booking platforms.\n\nAt Gewan Info Tech Solutions and Caxita Tech Solutions, I specialized in architecting reusable UI component systems and integrating complex asynchronous REST APIs. Through targeted memoization, lazy loading, and modern build tooling with Vite, I achieved a 20% reduction in API response handling time and a 15% improvement in overall page performance.\n\nI am particularly drawn to Stellar Technologies's focus on engineering excellence and robust digital experiences. I would welcome the opportunity to discuss how my technical background and performance-focused mindset can deliver immediate value to your team.\n\nSincerely,\nVipin V V\nDubai, UAE\n+971 556061492 | vipinvv555@gmail.com\n[Immediately Available | Open to UAE Employment]\n"
   },
   "fuse energy technologies:::software developer (react.js / next.js) - india remote": {
     "id": "fuse-remote-india-next-react",
@@ -45,7 +105,35 @@
     "cv_filename": "Vipin_VV_Fuse_Energy_Technologies_Software_Developer__React_ATS_CV.pdf",
     "application_status": "Shortlisted",
     "follow_up_date": "Pending manual review",
-    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure."
+    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "country": "IN",
+    "contact_phone": "+91 8089564801",
+    "contact_location": "Kochi, Kerala, India",
+    "salary": "INR 12,00,000 - 16,00,000 / year",
+    "description": "Fuse Energy is hiring a Remote React.js / Next.js Developer based anywhere in India. You will engineer scalable cloud-connected customer portals, develop clean reusable component libraries using Mantine UI / Tailwind, integrate asynchronous REST APIs, and optimize frontend bundle performance. Requirements: 3-5 years experience with React.js, Next.js, Redux Toolkit, Jest unit testing, Git workflows, and Agile delivery.",
+    "matched_technologies": [
+      "React.js",
+      "Next.js",
+      "Redux Toolkit / State Architecture",
+      "Modern UI Styling (Tailwind/Mantine)",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "score_breakdown": {
+      "tech_stack": 25,
+      "domain_experience": 25,
+      "architecture_performance": 11,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "tailored_email": {
+      "subject": "Application: Software Developer (React.js / Next.js) - India Remote — Vipin V V (4+ Years React.js / Frontend)",
+      "body": "Dear Hiring Team at Fuse Energy Technologies,\n\nI am writing to express my strong interest in the Software Developer (React.js / Next.js) - India Remote opening at Fuse Energy Technologies.\n\nWith over 4 years of frontend development experience specializing in React.js, Next.js, Redux Toolkit, and TypeScript, I have built and delivered scalable web applications and high-throughput booking platforms.\n\nKey highlights of my background aligned with Fuse Energy Technologies:\n• Production Frontend Engineering: 4+ years architecting component-driven web applications using React.js, Next.js, Redux Toolkit / State Architecture, Modern UI Styling (Tailwind/Mantine), REST APIs & Asynchronous Axios.\n• Performance & Speed: Reduced API response handling time by 20% and improved overall page loading speed by 15% through lazy loading, targeted memoization, and modern caching strategies.\n• Build Optimization: Successfully migrated enterprise frontend codebases from legacy Webpack to Vite, significantly cutting bundle sizes and development build times.\n• Asynchronous Data Architecture: Expert integration of complex RESTful APIs, Axios, and state synchronization using Redux Toolkit.\n\nI have attached my ATS-optimized resume tailored specifically for Software Developer (React.js / Next.js) - India Remote at Fuse Energy Technologies. I welcome the opportunity to discuss how my technical expertise can contribute to your engineering goals.\n\nSincerely,\nVipin V V\nKochi, Kerala, India\nPhone: +91 8089564801\nEmail: vipinvv555@gmail.com\nLinkedIn: linkedin.com/in/vipin-v-v\nAvailability: Standard notice period / Immediate discussion\n",
+      "recipient": "careers@fuseenergytechnologies.com",
+      "phone": "+91 8089564801",
+      "location": "Kochi, Kerala, India",
+      "is_uae": false
+    },
+    "cover_letter": "# Cover Note — Software Developer (React.js / Next.js) - India Remote at Fuse Energy Technologies\n\nDate: 2026-10-26\nTarget Position: Software Developer (React.js / Next.js) - India Remote\nCompany: Fuse Energy Technologies\nPosting URL: https://www.linkedin.com/jobs/search/?keywords=React+Developer&location=India&f_WT=2\n\n--------------------------------------------------------------------------------\n\nDear Hiring Team at Fuse Energy Technologies,\n\nI am writing to express my strong interest in the Software Developer (React.js / Next.js) - India Remote opening at Fuse Energy Technologies. With over 4 years of frontend engineering experience focused on React.js, Next.js, TypeScript, and Redux Toolkit, I have built and scaled high-throughput web applications and enterprise booking platforms.\n\nAt Gewan Info Tech Solutions and Caxita Tech Solutions, I specialized in architecting reusable UI component systems and integrating complex asynchronous REST APIs. Through targeted memoization, lazy loading, and modern build tooling with Vite, I achieved a 20% reduction in API response handling time and a 15% improvement in overall page performance.\n\nI am particularly drawn to Fuse Energy Technologies's focus on engineering excellence and robust digital experiences. I would welcome the opportunity to discuss how my technical background and performance-focused mindset can deliver immediate value to your team.\n\nSincerely,\nVipin V V\nKochi, Kerala, India\n+91 8089564801 | vipinvv555@gmail.com\n[Available within standard notice period / immediate upon discussion]\n"
   },
   "d4 insight:::frontend engineer (react.js)": {
     "id": "d4insight-dubai-react-fintech",
@@ -61,7 +149,33 @@
     "cv_filename": "Vipin_VV_D4_Insight_Frontend_Engineer__React_ATS_CV.pdf",
     "application_status": "Shortlisted",
     "follow_up_date": "Pending manual review",
-    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure."
+    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "country": "AE",
+    "contact_phone": "+971 556061492",
+    "contact_location": "Dubai, UAE",
+    "salary": "AED 15,000 - 20,000 / month",
+    "description": "D4 Insight is recruiting a Frontend Engineer with specialized expertise in React.js and modern state management. The role involves building high-throughput user dashboards, implementing memoization and lazy loading to ensure seamless client-side rendering, and connecting complex backend microservice APIs. Candidates with proven experience in enterprise workflows, Vite tooling, and accessibility compliance are strongly favored.",
+    "matched_technologies": [
+      "React.js",
+      "Redux Toolkit / State Architecture",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "score_breakdown": {
+      "tech_stack": 15,
+      "domain_experience": 25,
+      "architecture_performance": 15,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "tailored_email": {
+      "subject": "Application: Frontend Engineer (React.js) — Vipin V V (4+ Years React.js / Frontend)",
+      "body": "Dear Hiring Team at D4 Insight,\n\nI am writing to express my strong interest in the Frontend Engineer (React.js) opening at D4 Insight.\n\nWith over 4 years of frontend development experience specializing in React.js, Next.js, Redux Toolkit, and TypeScript, I have built and delivered scalable web applications and high-throughput booking platforms.\n\nKey highlights of my background aligned with D4 Insight:\n• Production Frontend Engineering: 4+ years architecting component-driven web applications using React.js, Redux Toolkit / State Architecture, REST APIs & Asynchronous Axios.\n• Performance & Speed: Reduced API response handling time by 20% and improved overall page loading speed by 15% through lazy loading, targeted memoization, and modern caching strategies.\n• Build Optimization: Successfully migrated enterprise frontend codebases from legacy Webpack to Vite, significantly cutting bundle sizes and development build times.\n• Asynchronous Data Architecture: Expert integration of complex RESTful APIs, Axios, and state synchronization using Redux Toolkit.\n\nI have attached my ATS-optimized resume tailored specifically for Frontend Engineer (React.js) at D4 Insight. I welcome the opportunity to discuss how my technical expertise can contribute to your engineering goals.\n\nSincerely,\nVipin V V\nDubai, UAE\nPhone: +971 556061492\nEmail: vipinvv555@gmail.com\nLinkedIn: linkedin.com/in/vipin-v-v\nAvailability: Immediately Available | Open to UAE Employment & Sponsorship\n",
+      "recipient": "careers@d4insight.com",
+      "phone": "+971 556061492",
+      "location": "Dubai, UAE",
+      "is_uae": true
+    },
+    "cover_letter": "# Cover Note — Frontend Engineer (React.js) at D4 Insight\n\nDate: 2026-10-26\nTarget Position: Frontend Engineer (React.js)\nCompany: D4 Insight\nPosting URL: https://www.linkedin.com/jobs/search/?keywords=Frontend+Engineer&location=Dubai\n\n--------------------------------------------------------------------------------\n\nDear Hiring Team at D4 Insight,\n\nI am writing to express my strong interest in the Frontend Engineer (React.js) opening at D4 Insight. With over 4 years of frontend engineering experience focused on React.js, Next.js, TypeScript, and Redux Toolkit, I have built and scaled high-throughput web applications and enterprise booking platforms.\n\nAt Gewan Info Tech Solutions and Caxita Tech Solutions, I specialized in architecting reusable UI component systems and integrating complex asynchronous REST APIs. Through targeted memoization, lazy loading, and modern build tooling with Vite, I achieved a 20% reduction in API response handling time and a 15% improvement in overall page performance.\n\nI am particularly drawn to D4 Insight's focus on engineering excellence and robust digital experiences. I would welcome the opportunity to discuss how my technical background and performance-focused mindset can deliver immediate value to your team.\n\nSincerely,\nVipin V V\nDubai, UAE\n+971 556061492 | vipinvv555@gmail.com\n[Immediately Available | Open to UAE Employment]\n"
   },
   "infolitz software pvt. ltd.:::react.js / frontend developer": {
     "id": "infolitz-kochi-react-node",
@@ -77,6 +191,32 @@
     "cv_filename": "Vipin_VV_Infolitz_Software_Pvt__Ltd_React_js___Frontend_Devel_ATS_CV.pdf",
     "application_status": "Shortlisted",
     "follow_up_date": "Pending manual review",
-    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure."
+    "notes": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "country": "IN",
+    "contact_phone": "+91 8089564801",
+    "contact_location": "Kochi, Kerala, India",
+    "salary": "Published upon interview (INR 7L - 11L)",
+    "description": "Infolitz Software is hiring a Software Engineer / React.js Developer for our Infopark Kochi center. Role requires hands-on experience in building enterprise-grade single page applications using React.js, Axios, state management (Redux Toolkit), and responsive UI engineering. Candidate will collaborate with product teams on enterprise booking and operational dashboards, implement WCAG accessibility standards, and ensure sub-second API response handling.",
+    "matched_technologies": [
+      "React.js",
+      "Redux Toolkit / State Architecture",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "score_breakdown": {
+      "tech_stack": 15,
+      "domain_experience": 25,
+      "architecture_performance": 9,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "tailored_email": {
+      "subject": "Application: React.js / Frontend Developer — Vipin V V (4+ Years React.js / Frontend)",
+      "body": "Dear Hiring Team at Infolitz Software Pvt. Ltd.,\n\nI am writing to express my strong interest in the React.js / Frontend Developer opening at Infolitz Software Pvt. Ltd..\n\nWith over 4 years of frontend development experience specializing in React.js, Next.js, Redux Toolkit, and TypeScript, I have built and delivered scalable web applications and high-throughput booking platforms.\n\nKey highlights of my background aligned with Infolitz Software Pvt. Ltd.:\n• Production Frontend Engineering: 4+ years architecting component-driven web applications using React.js, Redux Toolkit / State Architecture, REST APIs & Asynchronous Axios.\n• Performance & Speed: Reduced API response handling time by 20% and improved overall page loading speed by 15% through lazy loading, targeted memoization, and modern caching strategies.\n• Build Optimization: Successfully migrated enterprise frontend codebases from legacy Webpack to Vite, significantly cutting bundle sizes and development build times.\n• Asynchronous Data Architecture: Expert integration of complex RESTful APIs, Axios, and state synchronization using Redux Toolkit.\n\nI have attached my ATS-optimized resume tailored specifically for React.js / Frontend Developer at Infolitz Software Pvt. Ltd.. I welcome the opportunity to discuss how my technical expertise can contribute to your engineering goals.\n\nSincerely,\nVipin V V\nKochi, Kerala, India\nPhone: +91 8089564801\nEmail: vipinvv555@gmail.com\nLinkedIn: linkedin.com/in/vipin-v-v\nAvailability: Standard notice period / Immediate discussion\n",
+      "recipient": "careers@infolitzsoftwarepvtltd.com",
+      "phone": "+91 8089564801",
+      "location": "Kochi, Kerala, India",
+      "is_uae": false
+    },
+    "cover_letter": "# Cover Note — React.js / Frontend Developer at Infolitz Software Pvt. Ltd.\n\nDate: 2026-10-26\nTarget Position: React.js / Frontend Developer\nCompany: Infolitz Software Pvt. Ltd.\nPosting URL: https://www.indeed.com/q-React-Developer-l-Kochi,-Kerala-jobs.html\n\n--------------------------------------------------------------------------------\n\nDear Hiring Team at Infolitz Software Pvt. Ltd.,\n\nI am writing to express my strong interest in the React.js / Frontend Developer opening at Infolitz Software Pvt. Ltd.. With over 4 years of frontend engineering experience focused on React.js, Next.js, TypeScript, and Redux Toolkit, I have built and scaled high-throughput web applications and enterprise booking platforms.\n\nAt Gewan Info Tech Solutions and Caxita Tech Solutions, I specialized in architecting reusable UI component systems and integrating complex asynchronous REST APIs. Through targeted memoization, lazy loading, and modern build tooling with Vite, I achieved a 20% reduction in API response handling time and a 15% improvement in overall page performance.\n\nI am particularly drawn to Infolitz Software Pvt. Ltd.'s focus on engineering excellence and robust digital experiences. I would welcome the opportunity to discuss how my technical background and performance-focused mindset can deliver immediate value to your team.\n\nSincerely,\nVipin V V\nKochi, Kerala, India\n+91 8089564801 | vipinvv555@gmail.com\n[Available within standard notice period / immediate upon discussion]\n"
   }
 }

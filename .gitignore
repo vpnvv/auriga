@@ -7,3 +7,12 @@ token.json
 __pycache__/
 *.pyc
 .DS_Store
+
+# Next.js & Node
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+

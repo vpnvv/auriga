@@ -27,15 +27,66 @@ def get_job_contact(job: Dict[str, Any]) -> Tuple[str, str]:
     return "+91 8089564801", "Kochi, Kerala, India"
 
 
+def generate_job_email(job: Dict[str, Any]) -> Dict[str, str]:
+    """
+    Generates ready-to-send tailored email (Subject & Body) for a specific opportunity.
+    Adheres to international business standards and regional contact numbers.
+    """
+    company = job.get("company", "Hiring Team")
+    title = job.get("title") or job.get("job_title", "Frontend Developer")
+    phone, loc = get_job_contact(job)
+    is_uae = "+971" in phone
+
+    matched_tech = job.get("matched_technologies", ["React.js", "Next.js", "TypeScript", "Redux Toolkit"])
+    tech_str = ", ".join(matched_tech[:5]) if matched_tech else "React.js, Next.js, TypeScript, Redux Toolkit"
+
+    subject = f"Application: {title} — Vipin V V (4+ Years React.js / Frontend)"
+
+    availability = "Immediately Available | Open to UAE Employment & Sponsorship" if is_uae else "Standard notice period / Immediate discussion"
+
+    body = f"""Dear Hiring Team at {company},
+
+I am writing to express my strong interest in the {title} opening at {company}.
+
+With over 4 years of frontend development experience specializing in React.js, Next.js, Redux Toolkit, and TypeScript, I have built and delivered scalable web applications and high-throughput booking platforms.
+
+Key highlights of my background aligned with {company}:
+• Production Frontend Engineering: 4+ years architecting component-driven web applications using {tech_str}.
+• Performance & Speed: Reduced API response handling time by 20% and improved overall page loading speed by 15% through lazy loading, targeted memoization, and modern caching strategies.
+• Build Optimization: Successfully migrated enterprise frontend codebases from legacy Webpack to Vite, significantly cutting bundle sizes and development build times.
+• Asynchronous Data Architecture: Expert integration of complex RESTful APIs, Axios, and state synchronization using Redux Toolkit.
+
+I have attached my ATS-optimized resume tailored specifically for {title} at {company}. I welcome the opportunity to discuss how my technical expertise can contribute to your engineering goals.
+
+Sincerely,
+Vipin V V
+{loc}
+Phone: {phone}
+Email: vipinvv555@gmail.com
+LinkedIn: linkedin.com/in/vipin-v-v
+Availability: {availability}
+"""
+    return {
+        "subject": subject,
+        "body": body,
+        "recipient": f"careers@{company.lower().replace(' ', '').replace('.', '')}.com",
+        "phone": phone,
+        "location": loc,
+        "is_uae": is_uae
+    }
+
+
 def generate_cover_note(top_job: Dict[str, Any], date_str: str) -> str:
     """
-    Generates a concise 100-160 word metric-driven cover note for the #1 ranked job.
+    Generates a concise 100-160 word metric-driven cover note for the ranked job.
     Uses regional phone number (+971 for UAE, +91 for India).
     """
     company = top_job.get("company", "Hiring Team")
-    title = top_job.get("title", "Frontend Developer")
-    job_url = top_job.get("url", "")
+    title = top_job.get("title") or top_job.get("job_title", "Frontend Developer")
+    job_url = top_job.get("url") or top_job.get("job_url", "")
     phone, location = get_job_contact(top_job)
+    is_uae = "+971" in phone
+    avail = "Immediately Available | Open to UAE Employment" if is_uae else "Available within standard notice period / immediate upon discussion"
     
     note = f"""# Cover Note — {title} at {company}
 
@@ -58,7 +109,7 @@ Sincerely,
 Vipin V V
 {location}
 {phone} | vipinvv555@gmail.com
-[Available to join within standard notice period / immediate upon discussion]
+[{avail}]
 """
     return note
 
@@ -127,22 +178,24 @@ def generate_email_preview(ranked_jobs: List[Dict[str, Any]], date_str: str, man
     Produces clean, international-standard email body (both plain text and preview).
     Completely avoids messy raw markdown, raw hashes, or unwanted glyphs.
     """
-    subject = f"Daily React.js Job Digest — {date_str} — {len(ranked_jobs)} Best Matches"
+    subject = f"Auriga 4-Hour Job Digest & Website Update — {date_str} — {len(ranked_jobs)} Best Matches"
 
-    body = f"""Daily React.js Job Digest — {date_str}
+    body = f"""Auriga 4-Hour Job Digest & Website Update — {date_str}
 Recipient: vipinvv555@gmail.com
+Cadence: Every 4 Hours (Active Cloud & Local Sync)
 Total Verified Matches: {len(ranked_jobs)} Roles
 
 --------------------------------------------------------------------------------
 
 Hello Vipin,
 
-Here is your daily digest of the top React.js and Frontend Developer opportunities verified within the past 24 hours across Kochi, Remote India, and Dubai/UAE.
+Here is your 4-hour automated digest of the top React.js and Frontend Developer opportunities discovered and verified across Kochi, Remote India, and Dubai/UAE.
 
-Each position has been analyzed against its specific Job Description (JD). An ATS-friendly, single-column resume has been generated for each role, with the appropriate contact phone (+971 for Dubai/UAE, +91 for India).
+All opportunities, ready-to-send emails, tailored 1-page ATS resumes, and status tracking (Applied / Ignored / Shortlisted) are live in your web application dashboard:
+-> http://localhost:3000
 
 ================================================================================
-TOP 5 SHORTLISTED OPPORTUNITIES
+VERIFIED OPPORTUNITIES (READY FOR ONE-CLICK ACTION)
 ================================================================================
 """
 
@@ -152,14 +205,14 @@ TOP 5 SHORTLISTED OPPORTUNITIES
         body += f"\n{idx}. {j['title']} — {j['company']}\n"
         body += f"   • Fit Score: {j['total_score']}/100\n"
         body += f"   • Location: {j['location']} ({j.get('work_mode', 'N/A').title()})\n"
-        body += f"   • Applied Contact: {phone} ({loc})\n"
+        body += f"   • Regional Contact: {phone} ({loc})\n"
         body += f"   • Compensation: {j.get('salary', 'Not disclosed')}\n"
         body += f"   • Key Technologies: {', '.join(j.get('matched_technologies', []))}\n"
         body += f"   • Fit Analysis: {j.get('experience_gap_note', 'Direct match for experience level.')}\n"
         missing = j.get('missing_requirements', [])
         body += f"   • Skills Not in CV: {', '.join(missing) if missing else 'None'}\n"
         body += f"   • Tailored ATS Resume: {cv_name}\n"
-        body += f"   • Job Listing URL: {j.get('url')}\n"
+        body += f"   • Direct Listing URL: {j.get('url')}\n"
 
     body += f"""
 ================================================================================
@@ -169,11 +222,11 @@ FEATURED COVER NOTE (FOR #1 OPPORTUNITY)
 {cover_note_text.strip()}
 
 ================================================================================
-ATTACHMENTS PACKAGE (7 VERIFIED FILES)
+ATTACHMENTS PACKAGE ({len(manifest) + 2} VERIFIED FILES)
 ================================================================================
 1. job-report.md (Comprehensive 100-point JD evaluation digest)
 2. cover-note.md (Tailored note for top opportunity)
-3. 5 x Tailored ATS CVs in PDF format:
+3. {len(manifest)} x Tailored ATS CVs in PDF format:
 """
     for m in manifest:
         phone_used = m.get("contact_phone_used", "")
@@ -182,6 +235,7 @@ ATTACHMENTS PACKAGE (7 VERIFIED FILES)
     body += """
 --------------------------------------------------------------------------------
 Note: All CVs strictly follow ATS single-column formatting using standard Helvetica typography, with zero tables, progress bars, or decorative graphics for 100% ATS parser compatibility.
+Manage applications and track Applied vs Ignored status on your dashboard at http://localhost:3000.
 """
     return body
 
