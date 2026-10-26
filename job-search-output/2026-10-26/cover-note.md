@@ -19,4 +19,4 @@ Sincerely,
 Vipin V V
 Kochi, Kerala, India
 +91 8089564801 | vipinvv555@gmail.com
-[Available to join within standard notice period / immediate upon discussion]
+[Available within standard notice period / immediate upon discussion]
