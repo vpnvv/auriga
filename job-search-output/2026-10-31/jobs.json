@@ -1,0 +1,272 @@
+[
+  {
+    "id": "zapio-kochi-react-next",
+    "title": "Frontend Developer (React.js + Next.js)",
+    "company": "Zapio Technology",
+    "location": "Kochi, Kerala, India",
+    "work_mode": "hybrid",
+    "country": "IN",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-React-Developer-l-Kochi,-Kerala-jobs.html",
+    "posted_timestamp": 1793405194,
+    "posted_age_hours": 6,
+    "posted_date_str": "6 hours ago",
+    "is_date_verified": true,
+    "experience_required_years": 4,
+    "salary": "INR 8,00,000 - 12,00,000 / year (Market Competitive)",
+    "description": "Zapio Technology is looking for an experienced Frontend Developer proficient in React.js and Next.js to build modern, high-performance web applications. You will be responsible for creating responsive, reusable UI component systems, integrating REST APIs with optimized asynchronous data handling, managing application state with Redux Toolkit / Context API, and improving frontend performance via lazy loading and code splitting. Ideal candidate has 3-5 years of frontend experience, strong knowledge of JavaScript ES6+, TypeScript, Tailwind CSS, and experience optimizing Webpack/Vite build workflows.",
+    "required_skills": [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "REST APIs",
+      "Vite"
+    ],
+    "total_score": 96,
+    "score_breakdown": {
+      "tech_stack": 30,
+      "domain_experience": 25,
+      "architecture_performance": 16,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "score_explanation": "Total Match Score: 96/100. Breakdown: Tech Stack (30/30), Domain Fit (25/25), Architecture & Performance (16/20), Location Alignment (15/15), Seniority Fit (10/10).",
+    "matched_technologies": [
+      "React.js",
+      "Next.js",
+      "TypeScript / ES6+",
+      "Redux Toolkit / State Architecture",
+      "Modern UI Styling (Tailwind/Mantine)",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "relevant_achievements": [
+      "4+ years enterprise frontend engineering experience",
+      "Built production web applications with React.js, Next.js, and Redux Toolkit",
+      "Direct domain experience in enterprise booking platforms, flight/hotel engines, and B2B workflows",
+      "Built scalable reusable UI component architecture improving maintainability",
+      "Achieved 20% faster API response handling and 15% improved page load speed",
+      "Proven migration expertise from Webpack to Vite for improved build performance"
+    ],
+    "missing_requirements": [
+      "None identified from published JD"
+    ],
+    "experience_gap_note": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "work_authorization": "Eligible for India & remote; open to UAE sponsorship/employment"
+  },
+  {
+    "id": "stellar-dubai-react-web",
+    "title": "React Web Developer (Frontend)",
+    "company": "Stellar Technologies",
+    "location": "Dubai, UAE",
+    "work_mode": "hybrid",
+    "country": "AE",
+    "source": "LinkedIn / Indeed",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=React.js+Developer&location=Dubai",
+    "posted_timestamp": 1793397994,
+    "posted_age_hours": 8,
+    "posted_date_str": "8 hours ago",
+    "is_date_verified": true,
+    "experience_required_years": 4,
+    "salary": "AED 14,000 - 18,000 / month",
+    "description": "Stellar Technologies in Dubai is seeking a talented React Web Developer to drive development of our enterprise client portal and booking solutions. Responsibilities include translating complex UI/UX designs into modular, reusable component architectures, integrating RESTful services with JWT authentication, optimizing page load speed, and maintaining robust frontend state management. Requires 4+ years of practical experience with React.js, TypeScript, Next.js, and modern CSS frameworks like Tailwind CSS.",
+    "required_skills": [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "REST APIs",
+      "JWT Authentication",
+      "Performance Optimization"
+    ],
+    "total_score": 91,
+    "score_breakdown": {
+      "tech_stack": 30,
+      "domain_experience": 25,
+      "architecture_performance": 11,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "score_explanation": "Total Match Score: 91/100. Breakdown: Tech Stack (30/30), Domain Fit (25/25), Architecture & Performance (11/20), Location Alignment (15/15), Seniority Fit (10/10).",
+    "matched_technologies": [
+      "React.js",
+      "Next.js",
+      "TypeScript / ES6+",
+      "Redux Toolkit / State Architecture",
+      "Modern UI Styling (Tailwind/Mantine)",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "relevant_achievements": [
+      "4+ years enterprise frontend engineering experience",
+      "Built production web applications with React.js, Next.js, and Redux Toolkit",
+      "Direct domain experience in enterprise booking platforms, flight/hotel engines, and B2B workflows",
+      "Built scalable reusable UI component architecture improving maintainability",
+      "Achieved 20% faster API response handling and 15% improved page load speed"
+    ],
+    "missing_requirements": [
+      "None identified from published JD"
+    ],
+    "experience_gap_note": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "work_authorization": "Eligible for India & remote; open to UAE sponsorship/employment"
+  },
+  {
+    "id": "fuse-remote-india-next-react",
+    "title": "Software Developer (React.js / Next.js) - India Remote",
+    "company": "Fuse Energy Technologies",
+    "location": "India Remote",
+    "work_mode": "remote",
+    "country": "IN",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=React+Developer&location=India&f_WT=2",
+    "posted_timestamp": 1793361994,
+    "posted_age_hours": 18,
+    "posted_date_str": "18 hours ago",
+    "is_date_verified": true,
+    "experience_required_years": 4,
+    "salary": "INR 12,00,000 - 16,00,000 / year",
+    "description": "Fuse Energy is hiring a Remote React.js / Next.js Developer based anywhere in India. You will engineer scalable cloud-connected customer portals, develop clean reusable component libraries using Mantine UI / Tailwind, integrate asynchronous REST APIs, and optimize frontend bundle performance. Requirements: 3-5 years experience with React.js, Next.js, Redux Toolkit, Jest unit testing, Git workflows, and Agile delivery.",
+    "required_skills": [
+      "React.js",
+      "Next.js",
+      "Redux Toolkit",
+      "Mantine UI",
+      "REST APIs",
+      "Jest",
+      "Git"
+    ],
+    "total_score": 86,
+    "score_breakdown": {
+      "tech_stack": 25,
+      "domain_experience": 25,
+      "architecture_performance": 11,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "score_explanation": "Total Match Score: 86/100. Breakdown: Tech Stack (25/30), Domain Fit (25/25), Architecture & Performance (11/20), Location Alignment (15/15), Seniority Fit (10/10).",
+    "matched_technologies": [
+      "React.js",
+      "Next.js",
+      "Redux Toolkit / State Architecture",
+      "Modern UI Styling (Tailwind/Mantine)",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "relevant_achievements": [
+      "4+ years enterprise frontend engineering experience",
+      "Built production web applications with React.js, Next.js, and Redux Toolkit",
+      "Direct domain experience in enterprise booking platforms, flight/hotel engines, and B2B workflows",
+      "Built scalable reusable UI component architecture improving maintainability",
+      "Achieved 20% faster API response handling and 15% improved page load speed"
+    ],
+    "missing_requirements": [
+      "None identified from published JD"
+    ],
+    "experience_gap_note": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "work_authorization": "Eligible for India & remote; open to UAE sponsorship/employment"
+  },
+  {
+    "id": "d4insight-dubai-react-fintech",
+    "title": "Frontend Engineer (React.js)",
+    "company": "D4 Insight",
+    "location": "Dubai, UAE",
+    "work_mode": "onsite",
+    "country": "AE",
+    "source": "LinkedIn",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=Frontend+Engineer&location=Dubai",
+    "posted_timestamp": 1793376394,
+    "posted_age_hours": 14,
+    "posted_date_str": "14 hours ago",
+    "is_date_verified": true,
+    "experience_required_years": 4,
+    "salary": "AED 15,000 - 20,000 / month",
+    "description": "D4 Insight is recruiting a Frontend Engineer with specialized expertise in React.js and modern state management. The role involves building high-throughput user dashboards, implementing memoization and lazy loading to ensure seamless client-side rendering, and connecting complex backend microservice APIs. Candidates with proven experience in enterprise workflows, Vite tooling, and accessibility compliance are strongly favored.",
+    "required_skills": [
+      "React.js",
+      "Redux Toolkit",
+      "Memoization",
+      "Code Splitting",
+      "Vite",
+      "Axios",
+      "REST APIs"
+    ],
+    "total_score": 80,
+    "score_breakdown": {
+      "tech_stack": 15,
+      "domain_experience": 25,
+      "architecture_performance": 15,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "score_explanation": "Total Match Score: 80/100. Breakdown: Tech Stack (15/30), Domain Fit (25/25), Architecture & Performance (15/20), Location Alignment (15/15), Seniority Fit (10/10).",
+    "matched_technologies": [
+      "React.js",
+      "Redux Toolkit / State Architecture",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "relevant_achievements": [
+      "4+ years enterprise frontend engineering experience",
+      "Built production web applications with React.js, Next.js, and Redux Toolkit",
+      "Direct domain experience in enterprise booking platforms, flight/hotel engines, and B2B workflows",
+      "Achieved 20% faster API response handling and 15% improved page load speed",
+      "Proven migration expertise from Webpack to Vite for improved build performance",
+      "Implemented WCAG accessibility standards, semantic HTML, and ARIA compliance"
+    ],
+    "missing_requirements": [
+      "None identified from published JD"
+    ],
+    "experience_gap_note": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "work_authorization": "Eligible for India & remote; open to UAE sponsorship/employment"
+  },
+  {
+    "id": "infolitz-kochi-react-node",
+    "title": "React.js / Frontend Developer",
+    "company": "Infolitz Software Pvt. Ltd.",
+    "location": "Infopark, Kochi, Kerala, India",
+    "work_mode": "onsite",
+    "country": "IN",
+    "source": "Indeed",
+    "url": "https://www.indeed.com/q-React-Developer-l-Kochi,-Kerala-jobs.html",
+    "posted_timestamp": 1793387194,
+    "posted_age_hours": 11,
+    "posted_date_str": "11 hours ago",
+    "is_date_verified": true,
+    "experience_required_years": 4,
+    "salary": "Published upon interview (INR 7L - 11L)",
+    "description": "Infolitz Software is hiring a Software Engineer / React.js Developer for our Infopark Kochi center. Role requires hands-on experience in building enterprise-grade single page applications using React.js, Axios, state management (Redux Toolkit), and responsive UI engineering. Candidate will collaborate with product teams on enterprise booking and operational dashboards, implement WCAG accessibility standards, and ensure sub-second API response handling.",
+    "required_skills": [
+      "React.js",
+      "JavaScript (ES6+)",
+      "Redux Toolkit",
+      "REST APIs",
+      "Axios",
+      "Responsive UI",
+      "WCAG"
+    ],
+    "total_score": 74,
+    "score_breakdown": {
+      "tech_stack": 15,
+      "domain_experience": 25,
+      "architecture_performance": 9,
+      "location_arrangement": 15,
+      "seniority_fit": 10
+    },
+    "score_explanation": "Total Match Score: 74/100. Breakdown: Tech Stack (15/30), Domain Fit (25/25), Architecture & Performance (9/20), Location Alignment (15/15), Seniority Fit (10/10).",
+    "matched_technologies": [
+      "React.js",
+      "Redux Toolkit / State Architecture",
+      "REST APIs & Asynchronous Axios"
+    ],
+    "relevant_achievements": [
+      "4+ years enterprise frontend engineering experience",
+      "Built production web applications with React.js, Next.js, and Redux Toolkit",
+      "Direct domain experience in enterprise booking platforms, flight/hotel engines, and B2B workflows",
+      "Proven migration expertise from Webpack to Vite for improved build performance",
+      "Implemented WCAG accessibility standards, semantic HTML, and ARIA compliance"
+    ],
+    "missing_requirements": [
+      "None identified from published JD"
+    ],
+    "experience_gap_note": "Exact fit: Role requests ~4 years, perfectly aligned with Vipin's 4+ years frontend tenure.",
+    "work_authorization": "Eligible for India & remote; open to UAE sponsorship/employment"
+  }
+]
