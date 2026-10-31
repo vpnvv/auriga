@@ -10,7 +10,7 @@
 ## Executive Summary
 This daily digest presents the top 5 verified job vacancies discovered within the past 24 hours. Each position has been analyzed against its corresponding Job Description (JD) and evaluated using a transparent 100-point rubric. An ATS-compliant single-column PDF resume has been uniquely tailored for each specific role with region-appropriate contact details.
 
-Data Source Note: Discovered active live listings strictly verified within the past 24 hours across Kochi, Remote India, and Dubai.
+Data Source Note: Apify authenticated (User: vpnvv, Plan: FREE). Verified 24-hour job vacancies discovered and matched across Kochi, Remote India, and Dubai/UAE.
 
 ================================================================================
 
