@@ -1,6 +1,6 @@
 # Auriga — Persistent Career Application Tracker — Vipin V V
 
-> **Last Synced**: 2026-11-07 20:24:46  
+> **Last Synced**: 2026-11-07 23:48:37  
 > **Total Tracked Opportunities**: 5  
 > **Rule**: Applications are tracked as `Shortlisted` by default. Manual action is required to apply.
 
